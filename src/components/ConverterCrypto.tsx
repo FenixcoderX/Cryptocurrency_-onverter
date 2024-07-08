@@ -127,7 +127,7 @@ const ConverterCrypto = () => {
           <div className="flex flex-col items-center md:flex-row md:justify-around w-full">
             <div className="flex flex-row m-4">
               <select
-                className="p-3 rounded-l-lg text-white bg-blue-700 focus:outline-none h-12"
+                className="p-3 rounded-none rounded-l-lg text-white bg-blue-700 focus:outline-none h-12"
                 value={currencyFrom}
                 onChange={(e) => setCurrencyFrom(e.target.value)}
               >
@@ -145,7 +145,7 @@ const ConverterCrypto = () => {
             </div>
             <div className="flex flex-row m-4">
               <select
-                className="p-3 rounded-l-lg text-white bg-blue-700 focus:outline-none  h-12"
+                className="p-3 rounded-none rounded-l-lg text-white bg-blue-700 focus:outline-none  h-12"
                 value={currencyTo}
                 onChange={(e) => setCurrencyTo(e.target.value)}
               >

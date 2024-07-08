@@ -11,3 +11,8 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
